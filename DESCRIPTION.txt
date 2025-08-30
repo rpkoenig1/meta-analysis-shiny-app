@@ -1,0 +1,26 @@
+Package: MetaAnalysisApp
+Type: Shiny
+Title: Meta-Analysis Shiny Application
+Version: 1.0.0
+Author: Richard König richard.koenig@kcl.ac.uk
+Maintainer: Richard König richard.koenig@kcl.ac.uk
+Description: An interactive web application for conducting meta-analyses of 
+    binary and continuous outcome data. Supports risk ratios, odds ratios, 
+    and standardized mean differences with publication bias assessment and 
+    subgroup analysis capabilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.0.0)
+Imports:
+    shiny (>= 1.7.0),
+    readxl (>= 1.4.0),
+    dplyr (>= 1.1.0),
+    meta (>= 6.0.0),
+    stringr (>= 1.5.0)
+Suggests:
+    rmarkdown,
+    knitr
+URL: https://github.com/[your-username]/meta-analysis-shiny-app
+BugReports: https://github.com/[your-username]/meta-analysis-shiny-app/issues
